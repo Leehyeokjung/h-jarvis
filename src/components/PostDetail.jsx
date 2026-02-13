@@ -99,7 +99,7 @@ const PostDetail = () => {
                 <div className="hud-line" />
 
                 <section className="mt-12 bg-stark-sub/30 p-8 rounded-xl border border-stark-border/20">
-                    <h3 className="font-mono text-sm text-stark-primary tracking-[0.3em] mb-8 text-center uppercase">
+                    <h3 className="font-mono text-sm text-stark-primary tracking-[0.3em] mb-8 text-center">
                         dlgurwnd9604@hanyang.ac.kr
                     </h3>
                     <Giscus
