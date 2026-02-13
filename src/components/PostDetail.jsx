@@ -115,7 +115,6 @@ const PostDetail = () => {
                         inputPosition="top"
                         theme="transparent_dark"
                         lang="ko"
-                        loading="lazy"
                     />
                 </section>
             </motion.div>
