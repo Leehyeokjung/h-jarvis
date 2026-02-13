@@ -102,26 +102,21 @@ const PostDetail = () => {
                     <h3 className="font-mono text-sm text-stark-primary tracking-[0.3em] mb-8 text-center uppercase">
                         dlgurwnd9604@hanyang.ac.kr
                     </h3>
-                    {/* 
                     <Giscus
                         id="comments"
                         repo="Leehyeokjung/hj-log"
-                        repoId="R_kgN..."
+                        repoId="R_kgDOROmzOQ"
                         category="Announcements"
-                        categoryId="DIC_kwD..."
-                        mapping="pathname"
-                        term="Welcome to HJARVIS"
+                        categoryId="DIC_kwDOROmzOc4C2W4D"
+                        mapping="title"
+                        strict="0"
                         reactionsEnabled="1"
                         emitMetadata="0"
                         inputPosition="top"
-                        theme="dark_dimmed"
+                        theme="dark_high_contrast"
                         lang="ko"
                         loading="lazy"
                     />
-                    */}
-                    <div className="text-center text-white/20 font-mono text-xs uppercase tracking-widest">
-                        Communication Protocol Offline
-                    </div>
                 </section>
             </motion.div>
         </Layout>

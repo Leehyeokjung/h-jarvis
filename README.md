@@ -1,16 +1,38 @@
-# React + Vite
+# 🤖 HJARVIS // Engineering Archive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Access Status**: Authorized
+> **System Core**: React + Vite + Tailwind v4
+> **Design Protocol**: JARVIS/HUD Interface
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Quick Protocol
 
-## React Compiler
+### Development Drive
+```bash
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Build & Encryption
+```bash
+npm run build
+```
 
-## Expanding the ESLint configuration
+## 📁 System Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/posts/`: 모든 마크다운(.md) 문서 저장소. 여기에 파일을 넣으면 자동으로 대시보드에 기동됩니다.
+- `public/images/`: 포스트에 사용되는 이미지 리소스.
+- `src/components/`: HUD 인터페이스 모듈.
+- `src/lib/posts.js`: 마크다운 파싱 및 데이터 추출 엔진.
+
+## 🛠 Tech Stack
+
+- **Framework**: React 19 / Vite 8
+- **Styling**: Tailwind CSS v4 (CSS-first config)
+- **Animation**: Framer Motion
+- **Parsing**: gray-matter / react-markdown
+- **Comments**: Giscus (GitHub Discussions)
+
+---
+
+*HJARVIS System is Online.*
