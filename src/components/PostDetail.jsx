@@ -104,7 +104,7 @@ const PostDetail = () => {
                     </h3>
                     <Giscus
                         id="comments"
-                        repo="Leehyeokjung/hj-log"
+                        repo="Leehyeokjung/h-jarvis"
                         repoId="R_kgDOROmzOQ"
                         category="Announcements"
                         categoryId="DIC_kwDOROmzOc4C2W4D"
@@ -113,7 +113,7 @@ const PostDetail = () => {
                         reactionsEnabled="1"
                         emitMetadata="0"
                         inputPosition="top"
-                        theme="dark_high_contrast"
+                        theme="transparent_dark"
                         lang="ko"
                         loading="lazy"
                     />
